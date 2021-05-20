@@ -1,0 +1,17 @@
+/* .btn-info{
+    background-color: cornflowerblue !important;
+    border-color:cornflowerblue !important;
+}
+
+.btn-info:focus{
+    border-color: red !important;
+} */
+
+
+video{
+    object-fit:  cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}

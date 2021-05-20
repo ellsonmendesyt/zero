@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/custom.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+   <header>
+       <!-- HERO SECTION CARROSEL CTA -->
+
+   </header>
+   <section class="servicos">
+       <div class="container">
+       <div class="row">
+           <div class="col-md-8 my-2 mx-auto">
+               <h4 class="my-4">CALCULAR CUSTO DA LIGAÇÃO</h4>
+               <form >
+                   
+                   <!-- ORIGEM -->
+                <div class="ligacao d-flex b justify-content-between">
+                    <div class="plano bg-dark mr-2 text-white ">
+                        <div class="form-group form-chec mx-3 px-2 ">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">TenhoPlano</label>
+                        </div>
+                    </div>
+                    <!-- plano -->
+                    <div class="dropdown mr-2">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Origem
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">11</a>
+                          <a class="dropdown-item" href="#">16</a>
+                          <a class="dropdown-item" href="#">17</a>
+                          <a class="dropdown-item" href="#">18</a>
+                        </div>
+                      </div>
+                      <!-- DESTINO -->
+                      <div class="dropdown mr-2">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Destino
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">11</a>
+                          <a class="dropdown-item" href="#">16</a>
+                          <a class="dropdown-item" href="#">17</a>
+                          <a class="dropdown-item" href="#">18</a>
+                        </div>
+                      </div>
+                      <!-- CONFIRMAR PLANO -->
+                  
+                      <div class="dropdown ">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Plano
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">FaleMais30</a>
+                          <a class="dropdown-item" href="#">FaleMais60</a>
+                          <a class="dropdown-item" href="#">FaleMais120</a>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block my-4">Calcular</button>
+               </form>
+               <!-- mostrar selecionado -->
+               <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="text-center ">
+                    <td>sim</td>
+                    <td>11</td>
+                    <td>16</td>
+                    <td colspan="2">FaleMais30</td>
+                  </tr>
+                </tbody>
+              </table>
+           </div>
+       </div>
+       <!-- outra fila -->
+       <div class="row">
+           <div class="col-md-8 mx-auto mt-5">
+               <!-- TABELA -->
+               <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Origem</th>
+                        <th scope="col">Destino</th>
+                        <th scope="col">Tempo</th>
+                        <th scope="col">Plano</th>
+                    <th scope="col">Com  FaleMais</th>
+                    <th scope="col">Sem Falemais</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>11</td>
+                    <td>16</td>
+                    <td>20</td>
+                    <td>FaleMais30</td>
+                    <td>10</td>
+                    <td>60</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>11</td>
+                    <td>100</td>
+                    <td>FaleMais120</td>
+                    <td>-</td>
+                    <td>-</td>
+                  </tr>
+                </tbody>
+              </table>
+           </div>
+       </div>
+    </div>
+   </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>
